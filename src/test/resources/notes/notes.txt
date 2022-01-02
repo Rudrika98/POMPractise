@@ -1,0 +1,24 @@
+POM: Design Pattern
+DD: 
+Libraries: Generic functions
+TDD
+========>    Hybrid FW + POM (SRP) 
+
+POM: 
+Page : 
+ - for every page in web/mobile , we need to create a separate page Java class. 
+ - never use assertions in page class. 
+ - page actions need to provide the page behaviour 
+ - page locators(BY) should be private and will be accessed via public page actions. 
+
+Test : 	
+	TestNG/NUnit/PyTest
+ -  have to use a test client : TestNG/JUnit/Pytest/NUnit/Jasmine/Mocha
+ -  aasertions should 
+
+Keyword Driven + DD
+Open Browser 
+Enter url 
+Enter un 
+Enter pwd 
+Click on login 
